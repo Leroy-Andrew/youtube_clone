@@ -32,10 +32,12 @@ const Feed = () => {
           New <span style={{ color: "#f31503" }}>videos</span>
         </Typography>
 
-        <Videos />
+        <Videos videos={{}} />
       </Box>
     </Stack>
   );
 };
 
 export default Feed;
+
+// rapidapi.com/ytdlfree/api/youtube-v31/
