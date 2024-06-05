@@ -49,7 +49,7 @@ const VideoDetail = () => {
               py={1}
               px={2}
             >
-              <Link to={`/channel/${channelId}`}>
+              <Link to={`/channel/$${channelId}`}>
                 <Typography
                   variant={{ sm: "subtitle1", md: "h6" }}
                   color="#fff"
