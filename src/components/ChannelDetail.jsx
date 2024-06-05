@@ -38,7 +38,7 @@ const ChannelDetail = () => {
             zIndex: 10,
           }}
         />
-        <ChannelCard channelDetail={channelDetail} marginTop="-93px" />
+        <ChannelCard channelDetail={channelDetail} marginTop="-110px" />
       </Box>
       <Box p={2} display="flex">
         <Box sx={{ mr: { sm: "100px" } }} />
