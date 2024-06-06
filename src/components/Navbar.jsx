@@ -18,9 +18,7 @@ const Navbar = () => (
   >
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <img src={logo} alt="logo" height={45} />
-      <span fontWeight="bold" sx={{ color: "white" }}>
-        O.W.L
-      </span>
+      <span style={{ color: "#fff", fontWeight: "600" }}>O.W.L Player</span>
     </Link>
     <SearchBar />
   </Stack>
